@@ -1,0 +1,144 @@
+.contenido-principal {
+    color: white;
+    background-color: #414141;
+}
+
+.contenido-principal img {
+    border: 5px solid rgb(252, 252, 252) !important;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.contenido-principal ul {
+    list-style-type: disc !important;
+}
+
+.circulos {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 13px;
+}
+
+.linea {
+    position: absolute;
+    height: 30px;
+}
+
+.linea-extencion {
+    height: 90px;
+}
+
+.sin-margen p, ul > li > p {
+    margin: 0px;
+}
+
+.linea-aux {
+    position: absolute;
+    height: 100px;
+}
+
+.circulo-linea {
+    padding: 0px;
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    z-index: 99999999999;
+    background: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.link_ingles {
+    text-decoration: none;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.link_ingles:hover {
+    text-decoration: none;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact !important;
+    }
+
+    .contenido-principal {
+        min-width: 22.3% !important;
+        max-width: 22.3% !important;
+        width: 22.3% !important;
+
+        min-height: 99rem !important;
+        max-height: 99rem !important;
+        height: 99rem !important;
+    }
+
+    .contenido-secundario {
+        min-width: 76% !important;
+        max-width: 76% !important;
+        width: 76% !important;
+    }
+
+    table.tablaIdCard {
+        width: 75%;
+        float: left;
+        margin-right: 2%;
+    }
+
+    table.tabla-solo-coppel {
+        width: 23%;
+    }
+
+    table.tablaIdCard th {
+        padding: 5px !important;
+    }
+
+    table.tablaIdCard td {
+        padding: 5px !important;
+    }
+
+    table.tabla-solo-coppel th {
+        padding: 5px !important;
+    }
+
+    table.tabla-solo-coppel td {
+        padding: 5px !important;
+    }
+
+    table.tabla-solo-coppel td:first-child {
+        padding: 5px !important;
+        min-width: 25% !important;
+        max-width: 25% !important;
+        width: 25% !important;
+    }
+
+    .columnaFija {
+        min-width: 120px !important;
+        max-width: 120px !important;
+        width: 120px !important;
+    }
+
+    #content {
+        margin-left: 0px;
+        min-height: 900px;
+    }
+
+    .form-group {
+        margin-bottom: 0px !important;
+    }
+
+    .contenedorTitulo,
+    .contenedorTitulo div {
+        padding: 0px;
+    }
+
+    .contenedorTitulo h4 {
+        margin: 0px;
+    }
+}
