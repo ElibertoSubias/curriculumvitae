@@ -141,4 +141,8 @@ ul {
     .contenedorTitulo h4 {
         margin: 0px;
     }
+
+    .link_ingles {
+        display: none;
+    }
 }
